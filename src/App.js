@@ -2,6 +2,11 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+import SearchBar from './components/search_bar';
+
+const API_KEY = 'AIzaSyA7eOb8cqSIywehWvJiyg1kONYpq021N1k';
+
+
 class App extends Component {
   render() {
     return (
@@ -9,8 +14,11 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            Edit <code>src/App.js</code> Hello world!
           </p>
+          <div>
+            <SearchBar />
+          </div>
           <a
             className="App-link"
             href="https://reactjs.org"
